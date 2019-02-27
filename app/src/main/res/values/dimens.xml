@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="MargenTOP">333dp</dimen>
+    <dimen name="MargenTOP2">253dp</dimen>
+    <dimen name="MargenBTN1">450dp</dimen>
+    <dimen name="Boton1Bottom">155dp</dimen>
+    <dimen name="Boton2Bottom">86dp</dimen>
+    <dimen name="Forgtext">46dp</dimen>
+    <dimen name="LargoBTN1">280dp</dimen>
+    <dimen name="AltoBTN1">80dp</dimen>
+    <dimen name="LargoToolbar">130dp</dimen>
+    <dimen name="LargoToolbar2">79dp</dimen>
+    <dimen name="yOURlOGO">42dp</dimen>
+    <dimen name="LogoPadding">10dp</dimen>
+
+
+
+
+
+</resources>

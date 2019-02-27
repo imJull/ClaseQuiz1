@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/LargoToolbar2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp"
+        android:text="@string/Logo"
+        android:textAlignment="viewStart"
+        android:textSize="36sp"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="@dimen/LargoBTN1"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/MargenTOP2"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_child_care_black_24dp"
+        android:drawablePadding="@dimen/LogoPadding"
+        android:hint="@string/Username"
+        android:ems="10"
+        android:inputType=""
+        android:text="" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/LargoBTN1"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/MargenTOP"
+        android:drawableLeft="@drawable/ic_child_care_black_24dp"
+        android:drawablePadding="@dimen/LogoPadding"
+        android:hint="@string/Password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/Boton1Bottom"
+        android:layout_centerHorizontal="true"
+
+        android:text="SIGN IN"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/Boton2Bottom"
+        android:text="Register"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/forg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/Forgtext"
+        android:text="@string/Forgot" />
+</RelativeLayout>
